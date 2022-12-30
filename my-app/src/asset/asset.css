@@ -1,0 +1,33 @@
+input {
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+  }
+  .mainasset{
+    background-color: black;
+    color: #FFFFFF;
+    height: 100vh;
+  }
+  .App-header{
+    width: 500px;
+    border: 1px solid white;
+    height: 500px;
+  }
+  label {
+    font-size: 18px;
+    width: 100px;
+    text-align: left;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 25px;
+  }
