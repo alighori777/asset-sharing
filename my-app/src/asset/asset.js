@@ -11,7 +11,7 @@ function Asset() {
     data.append("file", file);
     console.log(data, "ali");
 
-    Axios.post("http://localhost:3001/upload", data)
+    Axios.post("http://52.77.45.77/", data)
       .then(res => console.log(res))
       .catch(err => console.log(err));
   };
@@ -35,7 +35,7 @@ function Asset() {
             <input
               type="file"
               id="file"
-              accept=".png, .zip"
+              accept=".png, .zip, .jpif"
               onChange={event => {
                 const file = event.target.files[0];
                 setFile(file);
